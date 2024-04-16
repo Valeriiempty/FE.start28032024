@@ -1,0 +1,96 @@
+body{
+    background-color: crimson;
+}
+h3{
+    color: blueviolet;
+    background-color: coral;
+}
+h4{
+    background-color: yellow;
+    color: yellowgreen;
+}
+h5{
+    background-color: yellow;
+    color: yellowgreen;
+}
+h6{
+    background-color: yellow;
+    color: yellowgreen;
+}
+/* DRY don't repeat yourself*/
+h4,h5,h6{
+    background-color: darkorange;
+    color: black;
+}
+h4{
+    border: 2px solid black;
+
+}
+h5{
+    text-align: right;
+}
+span{
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: red;
+    background-color: darkblue;
+}
+p span{
+    color: black;
+    font-size: large;
+}
+body p span{
+    color: gray;
+
+}
+ .text-card{
+    background-color: rgb(168, 168, 166);
+    color: rgb(0, 0, 0);
+    border: 4px solid black;
+    padding: 50px;
+ }
+ .big text{
+    font-size: 24px;
+ }
+ .text-card.big{
+    background-color: white;
+ }
+ div.text-card{
+    background-color: red;
+    color: black;
+ }
+ .text-card span{
+    color: white;
+ }
+ *{
+    text-decoration: underline;
+ }
+ ul li:first-child{
+    background-color: crimson;
+
+ }
+ ul li:last-child{
+    background-color: rgb(103, 199, 236);
+    
+ }
+ ul li:nth-child(4){
+    background-color: rgb(211, 12, 12);
+ }
+ ul li:nth-child(5){
+    background-color: rgb(143, 135, 123) ;
+ }
+ ul li:nth-child(6){
+    background-color: rgb(225, 240, 12) ;
+ }
+ ul li:nth-child(7){
+    background-color: rgb(81, 20, 105) ;
+ }
+ ul li:nth-child(8){
+    background-color: rgb(54, 42, 165) ;
+ }
+ ul li:nth-child(9){
+    background-color: rgb(190, 23, 79) ;
+ }
+ 
