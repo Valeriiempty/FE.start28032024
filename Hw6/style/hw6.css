@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  .counteiner{
+    width: 1728px;
+      height: 1117px;
+      
+  }
+body{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  width: 1728px;
+  height: 1117px;
+    background-image: url(..//img/Rectangle1.jpg)
+}
+.parent1 {
+  display: flex;
+  justify-content: start;
+  color: whitesmoke;
+}
+.parent2{
+  display: flex;
+  justify-content: end;
+}
+.content-box{
+ max-width: 55%;
+    padding: 10px;
+    color: white;
+}
+.h1{
+  width:13%;
+  height: 13%;;
+}
+.genre{
+  color: aliceblue; 
+}
+.star{
+  display: flex;
+  justify-content: flex-start;
+}
+.stream{
+  background-color: red;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.arrows{
+  border-radius: 20px;
+  color: white;
+}
+.product{
+  display: flex;
+  justify-content: flex-start;
+  align-content: stretch;
+  color: white;
+  gap: 500px;
+}
+.films{
+  display: flex;
+  justify-content: start;
+  align-content: space-around;
+  gap: 20px;
+}
